@@ -8,6 +8,7 @@ form {
 form .form-content {
     width: 50%;
     margin-bottom: 20px;
+    padding-top:47px;
 }
 
 .form-content .title {
