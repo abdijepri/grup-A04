@@ -82,9 +82,11 @@
 }
 
 /* device tab */
-@media (max-width: 1007px) {
+@media (max-width: 1000px) {
   .hero {
     height: 25vh;
+    margin-top: 100px;
+    margin-bottom: 50px;
   }
 
   .hero .items .item-left h1 {
