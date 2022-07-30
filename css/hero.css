@@ -85,7 +85,7 @@
 @media (max-width: 1000px) {
   .hero {
     height: 25vh;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 50px;
   }
 
@@ -95,6 +95,15 @@
 
   .hero .items .item-right img {
     width: 100%;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  .hero {
+    margin-top: 50px;
+  }
+  .item-right {
+    margin-top: 70px;
   }
 }
 
