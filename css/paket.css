@@ -4,7 +4,7 @@
 
 .list-paket {
   height: 90vh;
-  background: linear-gradient(rgba(255, 255, 255, 0.397), rgba(255, 255, 255, 0.397)), url("../images/4853433.jpg") ;
+  background: linear-gradient(rgba(255, 255, 255, 0.397), rgba(255, 255, 255, 0.397)), url("../images/4853433.jpg");
   background-size: cover;
   color: #353b48;
   display: block;
@@ -12,30 +12,30 @@
   align-items: center;
   text-align: center;
 }
- 
+
 .list-paket h1 {
-    font-size: 50px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding-top:47px;
+  font-size: 50px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding-top: 47px;
 }
 
 .list-paket h3 {
-    font-size: 20px;
-    text-align: center;
-    font-weight: normal;
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 0;
-    margin-bottom: 30px;
-    color:red;
+  font-size: 20px;
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: red;
 }
 
 .paket {
   width: 100%;
   margin: auto;
-  height: 400px;
+  height: auto;
 }
 .column {
   float: left;
@@ -52,7 +52,6 @@
   max-width: 75%;
   height: 8em;
 }
-
 
 .column p {
   font-size: 15px;
@@ -80,23 +79,30 @@
   margin: 0;
   font-style: italic;
   font-family: Arial, Helvetica, sans-serif;
- }
+}
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 640px) {
   .list-paket {
     height: 240vh;
+    width: 100%;
   }
   .column {
     width: 100%;
   }
+  .paket {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
 }
 
-.column strong{
-    font-size:25px;
-    margin:15px;
-    margin-bottom: 0;
-    font-weight: normal;
-    display:inline-block;
+.column strong {
+  font-size: 25px;
+  margin: 15px;
+  margin-bottom: 0;
+  font-weight: normal;
+  display: inline-block;
 }
 
 .harga {
@@ -144,8 +150,8 @@
 }
 
 .hanya {
-    color:red;
-    margin-top: 0;
+  color: red;
+  margin-top: 0;
 }
 
 @keyframes fromkiri {
@@ -161,10 +167,10 @@
 }
 
 .satu {
-    background-color: rgb(53, 59, 72, 0.2);
-    animation: fromkiri 3s;
-    position: relative;
-  }
+  background-color: rgb(53, 59, 72, 0.2);
+  animation: fromkiri 3s;
+  position: relative;
+}
 
 .dua {
   background-color: rgba(227, 183, 117, 0.203);
@@ -181,20 +187,20 @@
 .satu:hover {
   transition-duration: 1s;
   transition-delay: 0.2s;
-transform: scale(1.1);
-background-color: rgba(53, 59, 72, 0.749);
+  transform: scale(1.1);
+  background-color: rgba(53, 59, 72, 0.749);
 }
 
 .dua:hover {
-    transition-duration: 1s;
-    transition-delay: 0.2s;
+  transition-duration: 1s;
+  transition-delay: 0.2s;
   transform: scale(1.1);
   background-color: rgba(227, 183, 117, 0.604);
 }
 
 .tiga:hover {
-    transition-duration: 1s;
-    transition-delay: 0.2;
+  transition-duration: 1s;
+  transition-delay: 0.2;
   transform: scale(1.1);
   background-color: rgba(207, 150, 154, 0.733);
 }
